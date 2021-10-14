@@ -28,7 +28,7 @@ intFace.question("Zadajte prvé číslo: ", (first_number: number) => {
     intFace.question("Zadajte druhé číslo: ", (second_number: number) => {
         intFace.question("Ponukane operacie:\n- summary\n- subtraction\nZadajte operáciu: ", (operation: string) => {
             if (operation == "summary"){
-                console.log("\nVýsledok sčítanie je " + summary(Number(first_number), Number(second_number)));
+                console.log("\nVýsledok sčítania je " + summary(Number(first_number), Number(second_number)));
             }
             if (operation == "subtraction"){
                 console.log("\nVýsledok odčítania je " + subtraction(Number(first_number), Number(second_number)));
